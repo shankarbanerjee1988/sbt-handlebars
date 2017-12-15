@@ -1,1 +1,5 @@
 target/*
+target/streams/$global/bintrayEnsurePackage/$global/streams/out
+project/project/target/*
+target/streams/$global/ivyConfiguration/$global/streams/out
+project/project/target/streams/$global/update/$global/streams/output

@@ -9,7 +9,7 @@
 		extra-sbtVersion="0.13"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20171215202924"/>
+		date="20171215210537"/>
 	<dependencies>
 		<module organisation="com.github.gseitz" name="sbt-release">
 			<revision name="0.8.5" status="release" pubdate="20140906233023" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="59">
@@ -36,7 +36,7 @@
 		</module>
 		<module organisation="org.slf4j" name="slf4j-nop">
 			<revision name="1.7.7" status="release" pubdate="20140404164304" resolver="public" artresolver="public" homepage="http://www.slf4j.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="57">
-				<metadata-artifact status="successful" details="" size="1480" time="1224" location="/Users/shankarbanerjee/.ivy2/cache/org.slf4j/slf4j-nop/ivy-1.7.7.xml" searched="true" original-local-location="/Users/shankarbanerjee/.ivy2/cache/org.slf4j/slf4j-nop/ivy-1.7.7.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.7.7/slf4j-nop-1.7.7.pom"/>
+				<metadata-artifact status="successful" details="" size="1480" time="1559" location="/Users/shankarbanerjee/.ivy2/cache/org.slf4j/slf4j-nop/ivy-1.7.7.xml" searched="true" original-local-location="/Users/shankarbanerjee/.ivy2/cache/org.slf4j/slf4j-nop/ivy-1.7.7.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.7.7/slf4j-nop-1.7.7.pom"/>
 				<caller organisation="me.lessis" name="bintray-sbt" conf="compile" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.1.2"/>
 				<artifacts>
 					<artifact name="slf4j-nop" type="jar" ext="jar" status="no" details="" size="4090" time="0" location="/Users/shankarbanerjee/.ivy2/cache/org.slf4j/slf4j-nop/jars/slf4j-nop-1.7.7.jar">
@@ -177,7 +177,7 @@
 		<module organisation="io.netty" name="netty">
 			<revision name="3.9.0.Final" status="release" pubdate="20131222162540" resolver="public" artresolver="public" homepage="http://netty.io/" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="51">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="26204" time="1163" location="/Users/shankarbanerjee/.ivy2/cache/io.netty/netty/ivy-3.9.0.Final.xml" searched="true" original-local-location="/Users/shankarbanerjee/.ivy2/cache/io.netty/netty/ivy-3.9.0.Final.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/io/netty/netty/3.9.0.Final/netty-3.9.0.Final.pom"/>
+				<metadata-artifact status="successful" details="" size="26204" time="1635" location="/Users/shankarbanerjee/.ivy2/cache/io.netty/netty/ivy-3.9.0.Final.xml" searched="true" original-local-location="/Users/shankarbanerjee/.ivy2/cache/io.netty/netty/ivy-3.9.0.Final.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/io/netty/netty/3.9.0.Final/netty-3.9.0.Final.pom"/>
 				<caller organisation="com.ning" name="async-http-client" conf="compile, runtime" rev="3.9.0.Final" rev-constraint-default="3.9.0.Final" rev-constraint-dynamic="3.9.0.Final" callerrev="1.8.8"/>
 				<artifacts>
 					<artifact name="netty" type="bundle" ext="jar" status="no" details="" size="1231993" time="0" location="/Users/shankarbanerjee/.ivy2/cache/io.netty/netty/bundles/netty-3.9.0.Final.jar">
@@ -628,7 +628,7 @@
 		<module organisation="jline" name="jline">
 			<revision name="2.11" status="release" pubdate="20130520003100" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="14">
 				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
-				<metadata-artifact status="successful" details="" size="16867" time="1457" location="/Users/shankarbanerjee/.ivy2/cache/jline/jline/ivy-2.11.xml" searched="true" original-local-location="/Users/shankarbanerjee/.ivy2/cache/jline/jline/ivy-2.11.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom"/>
+				<metadata-artifact status="successful" details="" size="16867" time="1950" location="/Users/shankarbanerjee/.ivy2/cache/jline/jline/ivy-2.11.xml" searched="true" original-local-location="/Users/shankarbanerjee/.ivy2/cache/jline/jline/ivy-2.11.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom"/>
 				<caller organisation="org.scala-sbt" name="logging" conf="compile" rev="2.11" rev-constraint-default="2.11" rev-constraint-dynamic="2.11" callerrev="0.13.5"/>
 				<caller organisation="org.scala-sbt" name="completion" conf="compile" rev="2.11" rev-constraint-default="2.11" rev-constraint-dynamic="2.11" callerrev="0.13.5"/>
 				<artifacts>
