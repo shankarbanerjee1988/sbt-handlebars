@@ -1,4 +1,4 @@
-# sbt-hbs [![Build Status](https://travis-ci.org/bicouy0/sbt-hbs.svg?branch=master)](https://travis-ci.org/bicouy0/sbt-hbs)
+# sbt-handlebars [![Build Status](https://travis-ci.org/bicouy0/sbt-hbs.svg?branch=master)](https://travis-ci.org/bicouy0/sbt-hbs)
 [sbt-web] plugin for precompiling handlebars templates to javascript files, using the [handlebarsjs] compiler.
 
 Installation
@@ -9,7 +9,7 @@ To use this plugin use the addSbtPlugin command within your project's `plugins.s
 ```scala
 resolvers += Resolver.sbtPluginRepo("releases")
 
-addSbtPlugin("com.de.sbt" % "sbt-hbs" % "1.0.5")
+addSbtPlugin("com.de.sbt" % "sbt-hbs" % "1.0")
 ```
 
 Your project's build file also needs to enable sbt-web plugins. For example with `build.sbt`:
